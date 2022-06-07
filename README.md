@@ -1,2 +1,11 @@
-# Code-Fellows-201
-Projects for Code Fellows 201 course
+# LAB - 02
+
+## About Me
+
+description of project
+
+### Author: Lucy Gelderloos
+
+### Links and Resources
+
+### Reflections and Comments
