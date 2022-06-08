@@ -1,0 +1,169 @@
+body {
+    font-family: Verdana,Geneva,sans-serif; 
+}
+
+header {
+    padding: 0 1rem;
+}
+
+footer {
+    padding: 0 1rem;
+}
+
+header img {
+    float:right;
+    display:inline;
+}
+
+section {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+article {
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+body.spring article {
+    background-color: #D3BFDE;
+}
+
+
+body.spring article:hover {
+    background:linear-gradient(140deg,#7555A6,#D3BFDE 10% 90%,#7555A6);
+}
+
+body.summer article {
+    background-color: #A7D984; 
+}
+
+body.summer article:hover {
+    background:linear-gradient(140deg,#18732D,#A7D984 10% 90%,#55A667);
+}
+
+body.fall article {
+    background-color: #E6B02A; 
+}
+
+body.fall article:hover {
+    background:linear-gradient(140deg,#FBE921,#E6B02A 10% 90%,#FA902D);
+}
+
+body.winter article {
+    background-color: #DEEBF7; 
+}
+
+body.winter article:hover {
+    background:linear-gradient(140deg,#92C6F5,#DEEBF7 10% 90%,#92C6F5);
+}
+
+body.spring section.gardenPlan{
+    background-color: #7555A6;
+}
+
+body.summer section.gardenPlan{
+    background-color:#6F8C04;
+}
+
+body.fall section.gardenPlan{
+    background-color:#E63E17;
+}
+
+body.winter section.gardenPlan{
+    background-color:#92C6F5;
+}
+
+
+h1 {
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+}
+
+h2 {
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+    margin:0;
+}
+
+body.spring h1, body.spring h2 {
+    color: #18732D;
+    border-bottom:solid #7555A6;
+}
+
+body.summer h1, body.summer h2 {
+    color:#274001;
+    border-bottom:solid  #FF1768;
+}
+
+body.fall h1, body.fall h2 {
+    color:#E63E17;
+    border-bottom:solid #FC4935;
+}
+
+body.winter h1, body.winter h2 {
+    color:#465F75;
+    border-bottom:solid #92C6F5;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body.spring a {
+    color: #18732D;
+}
+
+body.spring a:hover {
+    color: #55A667;
+}
+
+body.summer a {
+    color: #274001;
+}
+
+body.summer a:hover {
+    color: #6F8C04;
+}
+
+body.fall a {
+    color: #E63E17;
+}
+
+body.fall a:hover {
+    color: #FC4935;
+}
+
+body.winter a {
+    color: #465F75;
+}
+
+body.winter a:hover {
+    color: #92C6F5;
+}
+
+address {
+    float:right;
+}
+
+button {
+    margin:3px;
+}
+
+button#gardenPlanGame {
+    float:right;
+}
+
+button#changeSeason {
+    float:left;
+}
+
+section#gardenPlan img {
+    width:50%;
+}
+
+/*fonts: https://www.cssfontstack.com/Palatino, https://www.cssfontstack.com/Verdana*/
+/*column layout: https://css-tricks.com/equal-columns-with-flexbox-its-more-complicated-than-you-might-think/ */
