@@ -33,7 +33,7 @@ function guessingGame() {
   let bornIn = prompt('I currently live in Seattle. Did I grow up there?').toLowerCase();
   if(bornIn === 'no'){
     console.log('Question 3 correct');
-    alert('Correct!');
+    alert('Correct! I grew up in Colorado.');
   } else {
     console.log('Question 3 incorrect');
     alert('Incorrect - I grew up in Colorado.');
@@ -45,7 +45,7 @@ function guessingGame() {
     alert('Correct! I never broke any bones until I broke my arm when I was 27.');
   } else {
     console.log('Question 4 incorrect');
-    alert('Incorrect');
+    alert('Incorrect. I never broke any bones until I broke my arm when I was 27.');
   }
 
   let fireScience = prompt('For my fifth grade science project, I lit our yard on fire and got in lots of trouble.').toLowerCase();
