@@ -3,7 +3,8 @@ body {
     border: 2px solid black;
     margin: 0 auto 0 auto;
     width: 50%;
-    background-color:#f88c80;
+    /* background-color:#f88c80; */
+    background-color:#A7D984;
     max-width: 600px;
 }
 
